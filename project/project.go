@@ -9,13 +9,13 @@ import (
 	"github.com/moisespsena/go-path-helpers"
 )
 
-func checkError(err error)  {
+func checkError(err error) {
 	if err != nil {
 		panic(err)
 	}
 }
 
-func printStrings(indent int, data []string)  {
+func printStrings(indent int, data []string) {
 	prefix := strings.Repeat("  ", indent)
 	for i, v := range data {
 		fmt.Printf("%v - %02d: %v\n", prefix, i, v)
@@ -54,7 +54,7 @@ func NewAssetFS() assetfs.Interface {
 	return fs
 }
 
-func PrepareFS(fs assetfs.Interface)  {
+func PrepareFS(fs assetfs.Interface) {
 	fs.RegisterPath("./assets1")
 	fs.RegisterPath("./assets2")
 }
