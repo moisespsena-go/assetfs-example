@@ -8,7 +8,6 @@ See source code for details.
 
 ```bash
 go get github.com/moisespsena/go-assetfs-example
-cd $GOPATH/src/github.com/moisespsena/go-assetfs-example
 ```
 
 Go to project directory:
