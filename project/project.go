@@ -3,8 +3,8 @@ package project
 import (
 	"fmt"
 	"strings"
-	"github.com/moisespsena/go-assetfs"
-	"github.com/moisespsena/go-assetfs/repository"
+	"github.com/moisespsena-go/assetfs"
+	"github.com/moisespsena-go/assetfs/repository"
 	"path/filepath"
 	"github.com/moisespsena/go-path-helpers"
 )

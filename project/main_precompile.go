@@ -2,7 +2,7 @@
 
 package project
 
-import "github.com/moisespsena/go-assetfs-example/repository"
+import "github.com/moisespsena-go/assetfs-example/repository"
 
 func Main() {
 	PrepareFS(repository.FileSystem)
